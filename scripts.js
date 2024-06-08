@@ -12,5 +12,5 @@ function changeImg() {
     }
 }
 
-changeImg(); // Ejecutar la función una vez cuando se carga la página
+changeImg(); 
 window.addEventListener("resize", changeImg);
