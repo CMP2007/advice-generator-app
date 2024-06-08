@@ -1,2 +1,61 @@
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+*{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  box-sizing:border-box;
+}
+body{
+    display: grid;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+}
+
+article{
+    width: 22rem;
+    margin: 12rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 2.5rem 2rem 3.5rem 2rem;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: .5rem;
+}
+span{
+    font-size: .65rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    color: hsl(150, 100%, 66%);
+}
+p{
+    font-size: 22px;
+    text-align: center;
+    width: 17REM;
+}
+.image{
+    position: absolute;
+    transform: translate( .4rem, 13rem);
+    background-color: hsl(150, 100%, 66%);
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image:hover{
+    
+box-shadow: 0px 0px 114px -6px hsl(150, 100%, 66%)
+}
+
+
+
+@media (min-width: 400px) {
+    article{
+        width: 27.5rem;
+    }
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 5rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
