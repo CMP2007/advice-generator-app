@@ -3,7 +3,6 @@
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  box-sizing:border-box;
 }
 body{
     display: grid;
@@ -17,7 +16,7 @@ article{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 2.5rem 2rem 3.5rem 2rem;
+    padding: 2.5rem .5rem 3.5rem .5rem;
     background-color: hsl(217, 19%, 24%);
     border-radius: .5rem;
 }
@@ -34,7 +33,7 @@ p{
 }
 .image{
     position: absolute;
-    transform: translate( .4rem, 13rem);
+    transform: translate( .4rem, 12.8rem);
     background-color: hsl(150, 100%, 66%);
     padding: 1rem;
     border-radius: 50%;
@@ -49,9 +48,18 @@ box-shadow: 0px 0px 114px -6px hsl(150, 100%, 66%)
 
 
 
-@media (min-width: 400px) {
+@media (min-width: 550px) {
     article{
-        width: 27.5rem;
+        width: 32.5rem;
+    }
+    p{
+        font-size: 26px;
+        width: 27rem;
+        letter-spacing: 0.02rem;
+    }
+    .image{
+         position: absolute;
+        transform: translate( .4rem, 12.6rem);
     }
 }
 
