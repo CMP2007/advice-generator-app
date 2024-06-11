@@ -1,7 +1,7 @@
 *{
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
 }
 body{
@@ -33,7 +33,7 @@ p{
 }
 .image{
     position: absolute;
-    transform: translate( .4rem, 12.8rem);
+    transform: translate( 0rem, 12.8rem);
     background-color: hsl(150, 100%, 66%);
     padding: 1rem;
     border-radius: 50%;
@@ -54,15 +54,14 @@ box-shadow: 0px 0px 114px -6px hsl(150, 100%, 66%)
     }
     p{
         font-size: 26px;
-        width: 27rem;
+        width: 26rem;
         letter-spacing: 0.02rem;
     }
     .image{
          position: absolute;
-        transform: translate( .4rem, 12.6rem);
+        transform: translate( 0rem, 12.6rem);
     }
 }
-
 
 
 .attribution { font-size: 11px; text-align: center; margin-top: 5rem;}
